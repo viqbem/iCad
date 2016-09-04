@@ -1,0 +1,70 @@
+MPLINK 4.35, Linker
+Linker Map File - Created Wed Aug 31 16:14:47 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00000a
+                   .cinit    romdata   0x000005    program   0x000004
+                   .org_1       code   0x000010    program   0x000118
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000006      
+                            0x000010    0x00009b      
+            147 out of 1168 program addresses used, program memory utilization is 12%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      ADC   0x00005a    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                    Ciclo   0x000084    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                CicloAzul   0x000096    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                CicloRojo   0x00008f    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+               CicloVerde   0x000088    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+            DisminuyeAzul   0x00003f    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+      DisminuyeAzulCambia   0x000044    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+            DisminuyeRojo   0x00002d    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+      DisminuyeRojoCambia   0x000032    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+           DisminuyeVerde   0x00001b    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+     DisminuyeVerdeCambia   0x000020    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                OnOffAzul   0x000034    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                OnOffRojo   0x000022    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+               OnOffVerde   0x000010    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+               PwmRefresh   0x000046    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                 cicloADC   0x000060    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                   finADC   0x000068    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                     main   0x00006e    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+              service_int   0x00009b    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               OnOffVerde   0x000010    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+           DisminuyeVerde   0x00001b    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+     DisminuyeVerdeCambia   0x000020    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                OnOffRojo   0x000022    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+            DisminuyeRojo   0x00002d    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+      DisminuyeRojoCambia   0x000032    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                OnOffAzul   0x000034    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+            DisminuyeAzul   0x00003f    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+      DisminuyeAzulCambia   0x000044    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+               PwmRefresh   0x000046    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                      ADC   0x00005a    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                 cicloADC   0x000060    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                   finADC   0x000068    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                     main   0x00006e    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                    Ciclo   0x000084    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+               CicloVerde   0x000088    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                CicloRojo   0x00008f    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+                CicloAzul   0x000096    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+              service_int   0x00009b    program     static C:\Users\Marce\Documents\PCB_cambia_color\LedCambiaColorConTrimmer\LedCambiaColorAdc.asm
+
+
