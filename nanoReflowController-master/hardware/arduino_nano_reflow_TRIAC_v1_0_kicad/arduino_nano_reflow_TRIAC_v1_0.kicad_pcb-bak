@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
 
   (general
     (links 74)
     (no_connects 1)
     (area 88.617857 57.420453 208.375284 133.125001)
     (thickness 1.6)
-    (drawings 17)
+    (drawings 19)
     (tracks 196)
     (zones 0)
     (modules 36)
@@ -70,7 +70,7 @@
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 100.5 118)
     (grid_origin 100.21882 118.19926)
-    (visible_elements 7FFFFFFF)
+    (visible_elements FFFECE7F)
     (pcbplotparams
       (layerselection 0x01000_80000000)
       (usegerberextensions false)
@@ -2267,8 +2267,6 @@
       (net 50 AC2_OUT))
   )
 
-  (gr_line (start 102.5 68) (end 198.5 68) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 198.5 118) (end 102.5 118) (angle 90) (layer Edge.Cuts) (width 0.15))
   (dimension 4 (width 0.2) (layer Dwgs.User)
     (gr_text 4mm (at 203 125.01598) (layer Dwgs.User)
       (effects (font (size 1.25 1.25) (thickness 0.2)))
@@ -2335,6 +2333,10 @@
     (arrow2a (pts (xy 100.5 131) (xy 101.626504 131.586421)))
     (arrow2b (pts (xy 100.5 131) (xy 101.626504 130.413579)))
   )
+  (target plus (at 100.5 118) (size 5) (width 0.15) (layer Edge.Cuts))
+  (target plus (at 100.5 118) (size 5) (width 0.15) (layer Edge.Cuts))
+  (gr_line (start 198.5 118) (end 102.5 118) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 102.5 68) (end 198.5 68) (angle 90) (layer Edge.Cuts) (width 0.15))
   (dimension 50 (width 0.2) (layer Dwgs.User)
     (gr_text 50mm (at 91.475 93 90) (layer Dwgs.User)
       (effects (font (size 1.25 1.25) (thickness 0.2)))
@@ -2549,8 +2551,8 @@
   (segment (start 104.792 113.516) (end 104.792 102.32426) (width 2) (layer B.Cu) (net 49) (tstamp 59201373))
   (segment (start 104.792 102.32426) (end 104.792 97.99098) (width 2) (layer B.Cu) (net 49) (tstamp 5963A39D))
   (segment (start 104.792 113.516) (end 106.56882 115.65926) (width 2) (layer B.Cu) (net 49) (status 20))
-  (segment (start 104.66382 87.71926) (end 104.66382 82.63926) (width 2) (layer B.Cu) (net 50) (tstamp 5963A0DC))
-  (segment (start 104.66382 82.63926) (end 104.66382 78.19426) (width 2) (layer B.Cu) (net 50) (tstamp 5963A3B6))
+  (segment (start 104.66382 87.71926) (end 104.66382 82.63926) (width 2) (layer B.Cu) (net 50) (tstamp 5963A0DC) (status 800000))
+  (segment (start 104.66382 82.63926) (end 104.66382 78.19426) (width 2) (layer B.Cu) (net 50) (tstamp 5963A3B6) (status 400000))
   (segment (start 104.66382 78.19426) (end 106.57 75.67) (width 2) (layer B.Cu) (net 50) (tstamp 59201377) (status 20))
   (segment (start 106.57 75.67) (end 110.37882 75.65426) (width 2) (layer B.Cu) (net 50) (status 20))
 
