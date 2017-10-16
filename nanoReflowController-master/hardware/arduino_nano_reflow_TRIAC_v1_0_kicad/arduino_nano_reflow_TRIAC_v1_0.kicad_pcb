@@ -5,7 +5,7 @@
     (no_connects 1)
     (area 88.617857 57.420453 208.375284 133.125001)
     (thickness 1.6)
-    (drawings 17)
+    (drawings 19)
     (tracks 196)
     (zones 0)
     (modules 36)
@@ -69,7 +69,6 @@
     (pad_drill 1)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 100.5 118)
-    (grid_origin 100.21882 118.19926)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x01000_80000000)
@@ -95,7 +94,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")
@@ -2267,8 +2266,10 @@
       (net 50 AC2_OUT))
   )
 
-  (gr_line (start 102.5 68) (end 198.5 68) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 198.5 118) (end 102.5 118) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 198.5 118) (end 153.55 118) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 59E4B828))
+  (gr_line (start 102.5 118) (end 147.5 118) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 59E4B7E1))
+  (gr_line (start 198.5 68) (end 153.55 68) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 102.5 68) (end 147.5 68) (angle 90) (layer Edge.Cuts) (width 0.15))
   (dimension 4 (width 0.2) (layer Dwgs.User)
     (gr_text 4mm (at 203 125.01598) (layer Dwgs.User)
       (effects (font (size 1.25 1.25) (thickness 0.2)))
