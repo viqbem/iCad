@@ -3,7 +3,7 @@
   (general
     (links 74)
     (no_connects 1)
-    (area 88.617857 57.420453 208.375284 133.125001)
+    (area 100.424999 67.924999 200.575001 118.075001)
     (thickness 1.6)
     (drawings 18)
     (tracks 196)
@@ -94,7 +94,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber/))
+      (outputdirectory ../../../../Escritorio/))
   )
 
   (net 0 "")
@@ -318,10 +318,10 @@
       (net 15 5V))
     (pad 5 thru_hole oval (at 0 10.16 90) (size 4 2) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x05_Pitch2.54mm.wrl
-      (at (xyz 0 -0.2 0))
+    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x05_Pitch2.54mm.wrl
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -542,10 +542,10 @@
       (net 22 /VIN))
     (pad 2 thru_hole oval (at 0 2.54 270) (size 4 2) (drill 1) (layers *.Cu *.Mask)
       (net 16 12v))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
-      (at (xyz 0 -0.05 0))
+    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -611,11 +611,6 @@
       (net 24 /D4))
     (pad 17 thru_hole oval (at 0 40.64 270) (size 4 2) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x17_Pitch2.54mm.wrl
-      (at (xyz 0 -0.8 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Diodes_THT:D_A-405_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 594CDCCD) (tstamp 592EDF15)
@@ -692,10 +687,10 @@
       (net 16 12v))
     (pad 3 thru_hole oval (at 0 5.08 90) (size 2.2 2.2) (drill 0.75) (layers *.Cu *.Mask)
       (net 16 12v))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
-      (at (xyz 0 -0.1 0))
+    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -733,10 +728,10 @@
       (net 41 /A3))
     (pad 3 thru_hole oval (at 0 5.08 90) (size 2.2 2.2) (drill 0.75) (layers *.Cu *.Mask)
       (net 40 /A2))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
-      (at (xyz 0 -0.1 0))
+    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -774,10 +769,10 @@
       (net 15 5V))
     (pad 3 thru_hole oval (at 0 5.08 90) (size 2.2 2.2) (drill 0.75) (layers *.Cu *.Mask)
       (net 15 5V))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
-      (at (xyz 0 -0.1 0))
+    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -815,10 +810,10 @@
       (net 1 GND))
     (pad 3 thru_hole oval (at 0 5.08 90) (size 2.2 2.2) (drill 0.75) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
-      (at (xyz 0 -0.1 0))
+    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -856,10 +851,10 @@
       (net 21 /FAN_GND))
     (pad 2 thru_hole oval (at 2.54 0 180) (size 2.2 2.2) (drill 0.75) (layers *.Cu *.Mask)
       (net 16 12v))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_2x01_Pitch2.54mm.wrl
-      (at (xyz 0.05 0 0))
+    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -1275,10 +1270,10 @@
       (net 3 "Net-(ARDUINO_NANO1-Pad2)"))
     (pad 3 thru_hole oval (at 0 5.08 180) (size 4 2) (drill 1) (layers *.Cu *.Mask)
       (net 8 "Net-(ARDUINO_NANO1-Pad1)"))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
-      (at (xyz 0 -0.1 0))
+    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
